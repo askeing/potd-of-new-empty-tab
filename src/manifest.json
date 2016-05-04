@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Potd of New Empty Tab",
+  "version": "1.0",
+
+  "description": "When open new empty tab, show featured picture of the day on the page.",
+
+  "icons": {
+    "16": "icon/icon_016.png",
+    "32": "icon/icon_032.png",
+    "48": "icon/icon_048.png",
+    "128": "icon/icon_128.png"
+  },
+
+  "background": {
+    "scripts": ["jquery-1.12.2.min.js", "potd.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "https://*.wikipedia.org/",
+    "*://*.google.com/",
+    "*://*.google.com.tw/"
+  ]
+}
